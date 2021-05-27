@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 7px rgba(114, 114, 117, 0.6);
+    border-radius: 20px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+input{
+    border-width: 2px;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 30px;
+}
+
+input[class~=neutral]{
+    border-color: #d3d3d4;
+}
+
+input[class~=success]{
+    border-color: #16e972;
+}
+
+input[class~=failed]{
+    border-color:#f1110e;
+}
+
+.status{
+    padding: 10px;
+    border-radius: 30px;
+}
+
+div[class~=failed]{
+    background-color: #f1110e;
+    color: white;
+}
+
+div[class~=success]{
+    background-color:rgb(40, 161, 40);
+    color: white;
+}
+
+.passIcon{
+    margin-left: -40px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+button{
+    border: 1px;
+    min-width: 40%;
+    border-radius: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(39, 218, 39);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0, 4px, 7px, rgba(74, 78, 74, 0.3);
+}
